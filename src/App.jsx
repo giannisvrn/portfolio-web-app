@@ -1,35 +1,64 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import './App.css';
+
+import email_icon from './icons/email.png'
+import github_icon from './icons/github.png'
+import linkedin_icon from './icons/linkedin.png'
+import weather_icon from './icons/weather-example.jpeg'
+import calculator_icon from './icons/calculator-example.jpeg'
+import todo_icon from './icons/todo-example.jpeg'
+import image_icon from './icons/image.png'
+import pin_icon from './icons/pin.png'
 
 function App() {
-  const [count, setCount] = useState(0)
+    return (
+      <div className="App">
+        <div className='container'>
+          <div className='photo-container'>
+            <img src={image_icon} alt="" className='image-icon'></img>
+          </div>
+          <div className='text-container'>
+            <h1>Computer Science Student</h1>
+            <p>Hello, i'm Giannis Vryonis. I'm interested in web development and cybersecurity,with experience in React and Firebase.</p>
+            <div className='loc'>
+              <img src={pin_icon} alt="" className='pin-icon'></img>
+              <p>Athens,Greece</p>
+            </div>
+          </div>
+          <div className='contact-container'>
+            <div className='contact'>
+              <p>CONTACT ME</p>
+            </div>
+            <div className='link-icons'>
+            <a href="mailto:giannisvrn@gmail.com">
+              <img src={email_icon} alt="" className='email-icon' />
+            </a>
+              <a href="https://github.com/giannisvrn">
+                <img src={github_icon} alt="" className='email-icon' />
+              </a>
+              <a href="https://www.linkedin.com/in/giannis-vrionis-3b3505208/">
+                <img src={linkedin_icon} alt="" className='email-icon' />
+              </a>
+            </div>
+          </div>
 
-  return (
-    <>
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
+        </div>
+        <h1 className='pro'>Projects</h1>
+        <div className='projects-container'>
+          <div className='project'>
+            <img src={todo_icon} alt="" className='project-icon'></img>
+            <p>Todo List Web-App</p>
+          </div>
+          <div className='project'>
+            <img src={calculator_icon} alt="" className='project-icon'></img>
+            <p>Calculator Web-App</p>
+          </div>
+          <div className='project'>
+            <img src={weather_icon} alt="" className='project-icon'></img>
+            <p>Weather Web-App</p>
+          </div>
+        </div>
       </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
-  )
+    );
 }
 
-export default App
+export default App;

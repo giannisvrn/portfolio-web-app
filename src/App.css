@@ -1,42 +1,105 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+.container { 
+  display: flex;
+  flex-direction: row;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+
+.photo-container { 
+  background-color: gray;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  margin-left: 200px;
+  margin-top: 100px;
+  width: 270px;
+  height: 300px;
+  border-radius: 50%;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.image-icon {
+  height: 300px; 
+  width: 270px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+.text-container { 
+  display: flex;
+  flex-direction: column;
+  margin-top: 150px;
+  margin-left: 70px;
+  max-width: 500px;
 }
 
-.card {
-  padding: 2em;
+.text-container h1 { 
+  font-weight: 800;
 }
 
-.read-the-docs {
-  color: #888;
+.loc { 
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.pin-icon {
+  width: 30px;
+  height: 30px;
+}
+
+.loc p { 
+  color: blue;
+  font-size: medium;
+}
+
+.contact-container { 
+  display: flex;
+  flex-direction: column;
+  margin-top: 170px;
+  margin-left: 300px;
+}
+
+.contact { 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #5C5CFF;
+  color: white;
+  font-size: 20px;
+  width: 150px;
+  height: 80px;
+}
+
+.link-icons { 
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+}
+
+.email-icon { 
+  width: 30px;
+  margin-left: 15px;
+}
+
+.pro { 
+  display: flex;
+  justify-content: center;
+  margin-top: 150px;
+  text-decoration: underline;
+}
+
+.projects-container {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 100px;
+}
+
+.project-icon {
+  width: 300px;
+  height: 300px;
+}
+
+.project { 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
