@@ -45,15 +45,21 @@ function App() {
         <h1 className='pro'>Projects</h1>
         <div className='projects-container'>
           <div className='project'>
-            <img src={todo_icon} alt="" className='project-icon'></img>
+            <a href='https://github.com/giannisvrn/todo-web-app'>
+              <img src={todo_icon} alt="" className='project-icon'></img>
+            </a>
             <p>Todo List Web-App</p>
           </div>
           <div className='project'>
-            <img src={calculator_icon} alt="" className='project-icon'></img>
+            <a href='https://github.com/giannisvrn/calculator-web-app'>
+              <img src={calculator_icon} alt="" className='project-icon'></img>
+            </a>
             <p>Calculator Web-App</p>
           </div>
           <div className='project'>
-            <img src={weather_icon} alt="" className='project-icon'></img>
+            <a href='https://github.com/giannisvrn/weather-web-app'>
+              <img src={weather_icon} alt="" className='project-icon'></img>
+            </a>
             <p>Weather Web-App</p>
           </div>
         </div>
