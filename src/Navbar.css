@@ -1,0 +1,52 @@
+.navbar-container { 
+    display: flex;
+    flex-direction: row;
+  }
+.contact-container { 
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+    margin-right: 5%;
+    right: 0%;
+  }
+  
+  .contact { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-size: 1.3rem; 
+    width: 150px;
+    height: 80px;
+  }
+
+  .contact p { 
+    font-size: 30px;
+  }
+
+  .nav-link {
+    text-decoration: none;
+    color: black;
+    transition: color 0.3s;
+    margin-left: 1vw;
+}
+
+.nav-link.active {
+    text-decoration: underline;
+}
+  
+  .link-icons { 
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .email-icon { 
+    width: 30px;
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+
+  .linkedin-icon { 
+    width: 30px;
+    margin-right: 15px;
+  }
