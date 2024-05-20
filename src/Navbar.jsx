@@ -22,9 +22,9 @@ function Navbar() {
                         <a href="https://github.com/giannisvrn">
                             <img src={github_icon} alt="" className='linkedin-icon' />
                         </a>
-                        <a href="https://www.linkedin.com/in/giannis-vrionis-3b3505208/">
+                        {/* <a href="https://www.linkedin.com/in/giannis-vrionis-3b3505208/">
                             <img src={linkedin_icon} alt="" className='linkedin-icon' />
-                        </a>
+                        </a> */}
                     </div>
                 </div>
             </div>

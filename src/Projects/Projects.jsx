@@ -18,6 +18,10 @@ function Projects() {
                     </div>
                     <div className='cybersecurity-container'>
                         <p>Cyber Security</p>
+                        <ul>
+                            <li><a href="https://github.com/giannisvrn/iwconfig-exploit">iwconfig exploit</a></li>
+                            <li><a href="https://github.com/giannisvrn/format-string-attack">Format string attack</a></li>
+                        </ul>
                         <a>**Undergoing class, can't upload on github yet🫣**</a>
                     </div>
                     <div className='other-container'>

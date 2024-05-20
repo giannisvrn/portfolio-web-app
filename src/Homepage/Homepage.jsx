@@ -15,7 +15,8 @@ function Homepage() {
           </div>
           <div className='text-container'>
             <h1>Computer Science Student</h1>
-            <p>Hi 👋, i'm Giannis Vryonis. I'm interested in cybersecurity and web development,with experience in React and Firebase.</p>
+            <p>Hi 👋, i'm <b>Giannis Vryonis</b> and i'm in my senior year at the National and Kapodistrian University of Athens.<br></br>
+             I'm interested in cybersecurity and web development,with experience in React and Firebase.</p>
             <div className='loc'>
               <img src={pin_icon} alt="" className='pin-icon'></img>
               <p>Athens,Greece</p>

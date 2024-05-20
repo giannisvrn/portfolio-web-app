@@ -8,14 +8,13 @@
 
   .block-container {
     display: flex;
-    justify-content: space-between; /* Adjust to space the blocks */
-    align-items: center; /* Center vertically */
+    justify-content: space-between; 
+    align-items: center;
     margin-top: 20px;
   }
   
   .web-dev-container{
-    min-width: 20%;
-    width: fit-content;
+    width: 20%;
     min-height: 20%;
     height: fit-content;
     background-color: #00d2ff;
@@ -28,8 +27,7 @@
 }
 
 .cybersecurity-container {
-    min-width: 20%;
-    width: fit-content;
+    width: 20%;
     min-height: 20%;
     height: fit-content;
     background-color: #00d2ff;
@@ -42,8 +40,7 @@
 }
 
 .other-container{
-    min-width: 20%;
-    width: fit-content;
+    width: 20%;
     min-height: 20%;
     height: fit-content;
     background-color: #00d2ff;
