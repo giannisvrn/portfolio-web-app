@@ -62,9 +62,30 @@
   font-size: medium;
 }
 
-.pro { 
+.languages{ 
   display: flex;
   justify-content: center;
   margin-top: 15vh;
   text-decoration: underline;
+}
+
+
+.languages-container {
+  display: flex;
+  justify-content:center;
+  margin-top: 100px;
+}
+
+.language-icon {
+  width: 144px;
+  height: 144px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.language { 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }

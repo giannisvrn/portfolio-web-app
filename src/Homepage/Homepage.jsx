@@ -3,6 +3,12 @@ import Navbar from '../Navbar';
 
 import image_icon from '../icons/image.png'
 import pin_icon from '../icons/pin.png'
+import c_icon from '../icons/c-icon.png'
+import cpp_icon from '../icons/cpp-icon.png'
+import react_icon from '../icons/react-icon.png'
+import python_icon from '../icons/python-icon.png'
+import firebase_icon from '../icons/firebase-icon.png'
+
 
 function Homepage() {
     return (
@@ -22,7 +28,24 @@ function Homepage() {
               <p>Athens,Greece</p>
             </div>
           </div>
-
+        </div>
+        <h1 className='languages'>Languages and Frameworks</h1>
+        <div className='languages-container'>
+          <div className='language'>
+            <img src={c_icon} alt="" className='language-icon'></img>
+          </div>
+          <div className='language'>
+            <img src={cpp_icon} alt="" className='language-icon'></img>
+          </div>
+          <div className='language'>
+            <img src={python_icon} alt="" className='language-icon'></img>
+          </div>
+          <div className='language'>
+            <img src={react_icon} alt="" className='language-icon'></img>
+          </div>
+          <div className='language'>
+            <img src={firebase_icon} alt="" className='language-icon'></img>
+          </div>
         </div>
       </div>
       </div>
