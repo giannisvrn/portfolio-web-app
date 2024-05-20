@@ -18,7 +18,7 @@ function Projects() {
                     </div>
                     <div className='cybersecurity-container'>
                         <p>Cyber Security</p>
-                        <a>**Undergoing class, cant upload on github yet🫣**</a>
+                        <a>**Undergoing class, can't upload on github yet🫣**</a>
                     </div>
                     <div className='other-container'>
                         <p>Other</p>

@@ -11,10 +11,10 @@
   overflow: hidden;
   margin-left: 15%; 
   margin-top: 5vh; 
-  width: 30%; 
+  width: 15%; 
   max-width: 370px;
-  min-width: 120px;
-  height: 400px;
+  min-width: 200px;
+  height: 350px;
   border-radius: 50%;
 }
 
