@@ -22,6 +22,7 @@ function Projects() {
                             <li><a href="https://github.com/giannisvrn/iwconfig-exploit">iwconfig exploit</a></li>
                             <li><a href="https://github.com/giannisvrn/format-string-attack">Format string attack</a></li>
                             <li><a href="https://github.com/giannisvrn/cryptography-challenges">Cryptography challenges</a></li>
+                            <li><a href="https://github.com/giannisvrn/web-exploits">Web Exploits</a></li>
                         </ul>
                     </div>
                     <div className='other-container'>
